@@ -1,0 +1,1020 @@
+{
+ "cases": [
+  {
+   "fn": "units",
+   "args": [
+    "500",
+    "4.00",
+    "1.50"
+   ],
+   "expect": "To raise $500.00 at $2.50 an item ($4.00 less $1.50), sell 200 items, raising $500.00 with $0.00 over."
+  },
+  {
+   "fn": "split",
+   "args": [
+    "200",
+    "8"
+   ],
+   "expect": "The 200 items shared among 8 sellers is 25 each, with 0 left over."
+  },
+  {
+   "fn": "box",
+   "args": [
+    "200",
+    "24"
+   ],
+   "expect": "The 200 items in boxes of 24 take 9 boxes, leaving 16 spaces spare."
+  },
+  {
+   "fn": "profit",
+   "args": [
+    "180",
+    "4.00",
+    "1.50",
+    "60.00"
+   ],
+   "expect": "The 180 items at $4.00 with $1.50 cost each and $60.00 fixed costs leave $390.00."
+  },
+  {
+   "fn": "units",
+   "args": [
+    "0.01",
+    "0.02",
+    "0.01"
+   ],
+   "expect": "To raise $0.01 at $0.01 an item ($0.02 less $0.01), sell 1 item, raising $0.01 with $0.00 over."
+  },
+  {
+   "fn": "units",
+   "args": [
+    "100",
+    "4",
+    "1.5"
+   ],
+   "expect": "To raise $100.00 at $2.50 an item ($4.00 less $1.50), sell 40 items, raising $100.00 with $0.00 over."
+  },
+  {
+   "fn": "split",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 item shared among 1 seller is 1 each, with 0 left over."
+  },
+  {
+   "fn": "split",
+   "args": [
+    "7",
+    "3"
+   ],
+   "expect": "The 7 items shared among 3 sellers is 2 each, with 1 left over."
+  },
+  {
+   "fn": "box",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 item in boxes of 1 take 1 box, leaving 0 spaces spare."
+  },
+  {
+   "fn": "profit",
+   "args": [
+    "10",
+    "4",
+    "1.5",
+    "100"
+   ],
+   "expect": "The 10 items at $4.00 with $1.50 cost each and $100.00 fixed costs leave a loss of $75.00."
+  },
+  {
+   "fn": "profit",
+   "args": [
+    "40",
+    "2.5",
+    "2.5",
+    "0"
+   ],
+   "expect": "The 40 items at $2.50 with $2.50 cost each and $0.00 fixed costs leave $0.00."
+  },
+  {
+   "fn": "units",
+   "args": [
+    "235759.94",
+    "3577.63",
+    "1967.71"
+   ],
+   "expect": "To raise $235759.94 at $1609.92 an item ($3577.63 less $1967.71), sell 147 items, raising $236658.24 with $898.30 over."
+  },
+  {
+   "fn": "units",
+   "args": [
+    "100409.08",
+    "6442.21",
+    "2438.89"
+   ],
+   "expect": "To raise $100409.08 at $4003.32 an item ($6442.21 less $2438.89), sell 26 items, raising $104086.32 with $3677.24 over."
+  },
+  {
+   "fn": "units",
+   "args": [
+    "768134.54",
+    "4767.12",
+    "1594.52"
+   ],
+   "expect": "To raise $768134.54 at $3172.60 an item ($4767.12 less $1594.52), sell 243 items, raising $770941.80 with $2807.26 over."
+  },
+  {
+   "fn": "units",
+   "args": [
+    "477075.84",
+    "6481.03",
+    "757.76"
+   ],
+   "expect": "To raise $477075.84 at $5723.27 an item ($6481.03 less $757.76), sell 84 items, raising $480754.68 with $3678.84 over."
+  },
+  {
+   "fn": "units",
+   "args": [
+    "803975.35",
+    "8860.92",
+    "1966.48"
+   ],
+   "expect": "To raise $803975.35 at $6894.44 an item ($8860.92 less $1966.48), sell 117 items, raising $806649.48 with $2674.13 over."
+  },
+  {
+   "fn": "units",
+   "args": [
+    "938491.01",
+    "4906.54",
+    "4899.57"
+   ],
+   "expect": "To raise $938491.01 at $6.97 an item ($4906.54 less $4899.57), sell 134648 items, raising $938496.56 with $5.55 over."
+  },
+  {
+   "fn": "units",
+   "args": [
+    "904570.08",
+    "4054.06",
+    "3692.13"
+   ],
+   "expect": "To raise $904570.08 at $361.93 an item ($4054.06 less $3692.13), sell 2500 items, raising $904825.00 with $254.92 over."
+  },
+  {
+   "fn": "units",
+   "args": [
+    "640112.10",
+    "932.09",
+    "106.02"
+   ],
+   "expect": "To raise $640112.10 at $826.07 an item ($932.09 less $106.02), sell 775 items, raising $640204.25 with $92.15 over."
+  },
+  {
+   "fn": "units",
+   "args": [
+    "680369.16",
+    "7770.12",
+    "1613.08"
+   ],
+   "expect": "To raise $680369.16 at $6157.04 an item ($7770.12 less $1613.08), sell 111 items, raising $683431.44 with $3062.28 over."
+  },
+  {
+   "fn": "units",
+   "args": [
+    "173755.11",
+    "4662.12",
+    "1438.38"
+   ],
+   "expect": "To raise $173755.11 at $3223.74 an item ($4662.12 less $1438.38), sell 54 items, raising $174081.96 with $326.85 over."
+  },
+  {
+   "fn": "units",
+   "args": [
+    "575253.19",
+    "7650.38",
+    "3681.35"
+   ],
+   "expect": "To raise $575253.19 at $3969.03 an item ($7650.38 less $3681.35), sell 145 items, raising $575509.35 with $256.16 over."
+  },
+  {
+   "fn": "units",
+   "args": [
+    "582579.20",
+    "5737.67",
+    "3464.81"
+   ],
+   "expect": "To raise $582579.20 at $2272.86 an item ($5737.67 less $3464.81), sell 257 items, raising $584125.02 with $1545.82 over."
+  },
+  {
+   "fn": "units",
+   "args": [
+    "272154.49",
+    "2024.03",
+    "875.41"
+   ],
+   "expect": "To raise $272154.49 at $1148.62 an item ($2024.03 less $875.41), sell 237 items, raising $272222.94 with $68.45 over."
+  },
+  {
+   "fn": "units",
+   "args": [
+    "424772.07",
+    "7528.08",
+    "2947.13"
+   ],
+   "expect": "To raise $424772.07 at $4580.95 an item ($7528.08 less $2947.13), sell 93 items, raising $426028.35 with $1256.28 over."
+  },
+  {
+   "fn": "units",
+   "args": [
+    "569036.56",
+    "8163.42",
+    "243.69"
+   ],
+   "expect": "To raise $569036.56 at $7919.73 an item ($8163.42 less $243.69), sell 72 items, raising $570220.56 with $1184.00 over."
+  },
+  {
+   "fn": "units",
+   "args": [
+    "662242.52",
+    "6074.39",
+    "2113.70"
+   ],
+   "expect": "To raise $662242.52 at $3960.69 an item ($6074.39 less $2113.70), sell 168 items, raising $665395.92 with $3153.40 over."
+  },
+  {
+   "fn": "units",
+   "args": [
+    "438296.67",
+    "4298.12",
+    "463.99"
+   ],
+   "expect": "To raise $438296.67 at $3834.13 an item ($4298.12 less $463.99), sell 115 items, raising $440924.95 with $2628.28 over."
+  },
+  {
+   "fn": "units",
+   "args": [
+    "11240.25",
+    "2058.13",
+    "415.61"
+   ],
+   "expect": "To raise $11240.25 at $1642.52 an item ($2058.13 less $415.61), sell 7 items, raising $11497.64 with $257.39 over."
+  },
+  {
+   "fn": "units",
+   "args": [
+    "258633.17",
+    "2670.46",
+    "1952.38"
+   ],
+   "expect": "To raise $258633.17 at $718.08 an item ($2670.46 less $1952.38), sell 361 items, raising $259226.88 with $593.71 over."
+  },
+  {
+   "fn": "units",
+   "args": [
+    "526383.19",
+    "8085.01",
+    "4653.07"
+   ],
+   "expect": "To raise $526383.19 at $3431.94 an item ($8085.01 less $4653.07), sell 154 items, raising $528518.76 with $2135.57 over."
+  },
+  {
+   "fn": "split",
+   "args": [
+    "4447",
+    "850"
+   ],
+   "expect": "The 4447 items shared among 850 sellers is 5 each, with 197 left over."
+  },
+  {
+   "fn": "split",
+   "args": [
+    "74123",
+    "986"
+   ],
+   "expect": "The 74123 items shared among 986 sellers is 75 each, with 173 left over."
+  },
+  {
+   "fn": "split",
+   "args": [
+    "10757",
+    "39"
+   ],
+   "expect": "The 10757 items shared among 39 sellers is 275 each, with 32 left over."
+  },
+  {
+   "fn": "split",
+   "args": [
+    "72949",
+    "420"
+   ],
+   "expect": "The 72949 items shared among 420 sellers is 173 each, with 289 left over."
+  },
+  {
+   "fn": "split",
+   "args": [
+    "33908",
+    "937"
+   ],
+   "expect": "The 33908 items shared among 937 sellers is 36 each, with 176 left over."
+  },
+  {
+   "fn": "split",
+   "args": [
+    "37603",
+    "475"
+   ],
+   "expect": "The 37603 items shared among 475 sellers is 79 each, with 78 left over."
+  },
+  {
+   "fn": "split",
+   "args": [
+    "31368",
+    "944"
+   ],
+   "expect": "The 31368 items shared among 944 sellers is 33 each, with 216 left over."
+  },
+  {
+   "fn": "split",
+   "args": [
+    "41697",
+    "244"
+   ],
+   "expect": "The 41697 items shared among 244 sellers is 170 each, with 217 left over."
+  },
+  {
+   "fn": "split",
+   "args": [
+    "50550",
+    "545"
+   ],
+   "expect": "The 50550 items shared among 545 sellers is 92 each, with 410 left over."
+  },
+  {
+   "fn": "split",
+   "args": [
+    "17056",
+    "353"
+   ],
+   "expect": "The 17056 items shared among 353 sellers is 48 each, with 112 left over."
+  },
+  {
+   "fn": "split",
+   "args": [
+    "59882",
+    "201"
+   ],
+   "expect": "The 59882 items shared among 201 sellers is 297 each, with 185 left over."
+  },
+  {
+   "fn": "split",
+   "args": [
+    "15758",
+    "397"
+   ],
+   "expect": "The 15758 items shared among 397 sellers is 39 each, with 275 left over."
+  },
+  {
+   "fn": "split",
+   "args": [
+    "50892",
+    "210"
+   ],
+   "expect": "The 50892 items shared among 210 sellers is 242 each, with 72 left over."
+  },
+  {
+   "fn": "split",
+   "args": [
+    "56918",
+    "956"
+   ],
+   "expect": "The 56918 items shared among 956 sellers is 59 each, with 514 left over."
+  },
+  {
+   "fn": "split",
+   "args": [
+    "27530",
+    "729"
+   ],
+   "expect": "The 27530 items shared among 729 sellers is 37 each, with 557 left over."
+  },
+  {
+   "fn": "split",
+   "args": [
+    "5045",
+    "581"
+   ],
+   "expect": "The 5045 items shared among 581 sellers is 8 each, with 397 left over."
+  },
+  {
+   "fn": "split",
+   "args": [
+    "4204",
+    "971"
+   ],
+   "expect": "The 4204 items shared among 971 sellers is 4 each, with 320 left over."
+  },
+  {
+   "fn": "split",
+   "args": [
+    "60537",
+    "398"
+   ],
+   "expect": "The 60537 items shared among 398 sellers is 152 each, with 41 left over."
+  },
+  {
+   "fn": "split",
+   "args": [
+    "13473",
+    "434"
+   ],
+   "expect": "The 13473 items shared among 434 sellers is 31 each, with 19 left over."
+  },
+  {
+   "fn": "split",
+   "args": [
+    "28904",
+    "324"
+   ],
+   "expect": "The 28904 items shared among 324 sellers is 89 each, with 68 left over."
+  },
+  {
+   "fn": "box",
+   "args": [
+    "79269",
+    "631"
+   ],
+   "expect": "The 79269 items in boxes of 631 take 126 boxes, leaving 237 spaces spare."
+  },
+  {
+   "fn": "box",
+   "args": [
+    "94871",
+    "198"
+   ],
+   "expect": "The 94871 items in boxes of 198 take 480 boxes, leaving 169 spaces spare."
+  },
+  {
+   "fn": "box",
+   "args": [
+    "18954",
+    "758"
+   ],
+   "expect": "The 18954 items in boxes of 758 take 26 boxes, leaving 754 spaces spare."
+  },
+  {
+   "fn": "box",
+   "args": [
+    "20043",
+    "57"
+   ],
+   "expect": "The 20043 items in boxes of 57 take 352 boxes, leaving 21 spaces spare."
+  },
+  {
+   "fn": "box",
+   "args": [
+    "77265",
+    "218"
+   ],
+   "expect": "The 77265 items in boxes of 218 take 355 boxes, leaving 125 spaces spare."
+  },
+  {
+   "fn": "box",
+   "args": [
+    "19826",
+    "947"
+   ],
+   "expect": "The 19826 items in boxes of 947 take 21 boxes, leaving 61 spaces spare."
+  },
+  {
+   "fn": "box",
+   "args": [
+    "73011",
+    "896"
+   ],
+   "expect": "The 73011 items in boxes of 896 take 82 boxes, leaving 461 spaces spare."
+  },
+  {
+   "fn": "box",
+   "args": [
+    "25239",
+    "857"
+   ],
+   "expect": "The 25239 items in boxes of 857 take 30 boxes, leaving 471 spaces spare."
+  },
+  {
+   "fn": "box",
+   "args": [
+    "42873",
+    "62"
+   ],
+   "expect": "The 42873 items in boxes of 62 take 692 boxes, leaving 31 spaces spare."
+  },
+  {
+   "fn": "box",
+   "args": [
+    "77190",
+    "249"
+   ],
+   "expect": "The 77190 items in boxes of 249 take 310 boxes, leaving 0 spaces spare."
+  },
+  {
+   "fn": "box",
+   "args": [
+    "5975",
+    "516"
+   ],
+   "expect": "The 5975 items in boxes of 516 take 12 boxes, leaving 217 spaces spare."
+  },
+  {
+   "fn": "box",
+   "args": [
+    "93624",
+    "650"
+   ],
+   "expect": "The 93624 items in boxes of 650 take 145 boxes, leaving 626 spaces spare."
+  },
+  {
+   "fn": "box",
+   "args": [
+    "78816",
+    "637"
+   ],
+   "expect": "The 78816 items in boxes of 637 take 124 boxes, leaving 172 spaces spare."
+  },
+  {
+   "fn": "box",
+   "args": [
+    "8677",
+    "289"
+   ],
+   "expect": "The 8677 items in boxes of 289 take 31 boxes, leaving 282 spaces spare."
+  },
+  {
+   "fn": "box",
+   "args": [
+    "96191",
+    "486"
+   ],
+   "expect": "The 96191 items in boxes of 486 take 198 boxes, leaving 37 spaces spare."
+  },
+  {
+   "fn": "box",
+   "args": [
+    "85381",
+    "620"
+   ],
+   "expect": "The 85381 items in boxes of 620 take 138 boxes, leaving 179 spaces spare."
+  },
+  {
+   "fn": "box",
+   "args": [
+    "32463",
+    "946"
+   ],
+   "expect": "The 32463 items in boxes of 946 take 35 boxes, leaving 647 spaces spare."
+  },
+  {
+   "fn": "box",
+   "args": [
+    "72533",
+    "847"
+   ],
+   "expect": "The 72533 items in boxes of 847 take 86 boxes, leaving 309 spaces spare."
+  },
+  {
+   "fn": "box",
+   "args": [
+    "87324",
+    "280"
+   ],
+   "expect": "The 87324 items in boxes of 280 take 312 boxes, leaving 36 spaces spare."
+  },
+  {
+   "fn": "box",
+   "args": [
+    "96942",
+    "896"
+   ],
+   "expect": "The 96942 items in boxes of 896 take 109 boxes, leaving 722 spaces spare."
+  },
+  {
+   "fn": "profit",
+   "args": [
+    "30938",
+    "7595.99",
+    "8761.96",
+    "470754.78"
+   ],
+   "expect": "The 30938 items at $7595.99 with $8761.96 cost each and $470754.78 fixed costs leave a loss of $36543534.64."
+  },
+  {
+   "fn": "profit",
+   "args": [
+    "48264",
+    "8985.02",
+    "9991.51",
+    "126505.72"
+   ],
+   "expect": "The 48264 items at $8985.02 with $9991.51 cost each and $126505.72 fixed costs leave a loss of $48703739.08."
+  },
+  {
+   "fn": "profit",
+   "args": [
+    "81529",
+    "4898.15",
+    "9311.56",
+    "30094.65"
+   ],
+   "expect": "The 81529 items at $4898.15 with $9311.56 cost each and $30094.65 fixed costs leave a loss of $359850998.54."
+  },
+  {
+   "fn": "profit",
+   "args": [
+    "73060",
+    "1523.15",
+    "7566.72",
+    "551846.86"
+   ],
+   "expect": "The 73060 items at $1523.15 with $7566.72 cost each and $551846.86 fixed costs leave a loss of $442095071.06."
+  },
+  {
+   "fn": "profit",
+   "args": [
+    "9127",
+    "340.21",
+    "3996.28",
+    "958336.18"
+   ],
+   "expect": "The 9127 items at $340.21 with $3996.28 cost each and $958336.18 fixed costs leave a loss of $34327287.07."
+  },
+  {
+   "fn": "profit",
+   "args": [
+    "21254",
+    "4000.14",
+    "5723.52",
+    "836822.95"
+   ],
+   "expect": "The 21254 items at $4000.14 with $5723.52 cost each and $836822.95 fixed costs leave a loss of $37465541.47."
+  },
+  {
+   "fn": "profit",
+   "args": [
+    "91227",
+    "777.44",
+    "5040.98",
+    "108665.03"
+   ],
+   "expect": "The 91227 items at $777.44 with $5040.98 cost each and $108665.03 fixed costs leave a loss of $389058628.61."
+  },
+  {
+   "fn": "profit",
+   "args": [
+    "93031",
+    "3671.75",
+    "3856.86",
+    "321886.24"
+   ],
+   "expect": "The 93031 items at $3671.75 with $3856.86 cost each and $321886.24 fixed costs leave a loss of $17542854.65."
+  },
+  {
+   "fn": "profit",
+   "args": [
+    "9817",
+    "8385.08",
+    "5553.18",
+    "689897.47"
+   ],
+   "expect": "The 9817 items at $8385.08 with $5553.18 cost each and $689897.47 fixed costs leave $27110864.83."
+  },
+  {
+   "fn": "profit",
+   "args": [
+    "43108",
+    "5056.13",
+    "1038.87",
+    "111191.46"
+   ],
+   "expect": "The 43108 items at $5056.13 with $1038.87 cost each and $111191.46 fixed costs leave $173064852.62."
+  },
+  {
+   "fn": "profit",
+   "args": [
+    "37708",
+    "736.32",
+    "8901.25",
+    "112320.53"
+   ],
+   "expect": "The 37708 items at $736.32 with $8901.25 cost each and $112320.53 fixed costs leave a loss of $307995500.97."
+  },
+  {
+   "fn": "profit",
+   "args": [
+    "37410",
+    "5562.38",
+    "6716.45",
+    "244448.81"
+   ],
+   "expect": "The 37410 items at $5562.38 with $6716.45 cost each and $244448.81 fixed costs leave a loss of $43418207.51."
+  },
+  {
+   "fn": "profit",
+   "args": [
+    "74623",
+    "7949.25",
+    "8554.18",
+    "847251.77"
+   ],
+   "expect": "The 74623 items at $7949.25 with $8554.18 cost each and $847251.77 fixed costs leave a loss of $45988943.16."
+  },
+  {
+   "fn": "profit",
+   "args": [
+    "360",
+    "8373.22",
+    "5374.47",
+    "158664.76"
+   ],
+   "expect": "The 360 items at $8373.22 with $5374.47 cost each and $158664.76 fixed costs leave $920885.24."
+  },
+  {
+   "fn": "profit",
+   "args": [
+    "22667",
+    "1867.94",
+    "9116.70",
+    "842222.13"
+   ],
+   "expect": "The 22667 items at $1867.94 with $9116.70 cost each and $842222.13 fixed costs leave a loss of $165149865.05."
+  },
+  {
+   "fn": "profit",
+   "args": [
+    "46523",
+    "6433.89",
+    "7146.04",
+    "463668.73"
+   ],
+   "expect": "The 46523 items at $6433.89 with $7146.04 cost each and $463668.73 fixed costs leave a loss of $33595023.18."
+  },
+  {
+   "fn": "profit",
+   "args": [
+    "77072",
+    "8890.26",
+    "6677.30",
+    "524715.06"
+   ],
+   "expect": "The 77072 items at $8890.26 with $6677.30 cost each and $524715.06 fixed costs leave $170032538.06."
+  },
+  {
+   "fn": "profit",
+   "args": [
+    "34099",
+    "7878.04",
+    "2086.34",
+    "976879.53"
+   ],
+   "expect": "The 34099 items at $7878.04 with $2086.34 cost each and $976879.53 fixed costs leave $196514298.77."
+  },
+  {
+   "fn": "profit",
+   "args": [
+    "85402",
+    "9707.39",
+    "121.44",
+    "908650.47"
+   ],
+   "expect": "The 85402 items at $9707.39 with $121.44 cost each and $908650.47 fixed costs leave $817750651.43."
+  },
+  {
+   "fn": "profit",
+   "args": [
+    "80979",
+    "9456.57",
+    "9838.00",
+    "966735.35"
+   ],
+   "expect": "The 80979 items at $9456.57 with $9838.00 cost each and $966735.35 fixed costs leave a loss of $31854555.32."
+  },
+  {
+   "fn": "profit",
+   "args": [
+    "89968",
+    "3923.48",
+    "9576.28",
+    "71046.27"
+   ],
+   "expect": "The 89968 items at $3923.48 with $9576.28 cost each and $71046.27 fixed costs leave a loss of $508642156.67."
+  },
+  {
+   "fn": "profit",
+   "args": [
+    "10898",
+    "1005.10",
+    "8757.63",
+    "134360.81"
+   ],
+   "expect": "The 10898 items at $1005.10 with $8757.63 cost each and $134360.81 fixed costs leave a loss of $84621432.75."
+  },
+  {
+   "fn": "profit",
+   "args": [
+    "60257",
+    "4995.82",
+    "2017.19",
+    "488982.08"
+   ],
+   "expect": "The 60257 items at $4995.82 with $2017.19 cost each and $488982.08 fixed costs leave $178994325.83."
+  },
+  {
+   "fn": "profit",
+   "args": [
+    "89739",
+    "6769.95",
+    "4496.38",
+    "708093.06"
+   ],
+   "expect": "The 89739 items at $6769.95 with $4496.38 cost each and $708093.06 fixed costs leave $203319805.17."
+  },
+  {
+   "fn": "profit",
+   "args": [
+    "27124",
+    "1187.87",
+    "7915.64",
+    "317423.52"
+   ],
+   "expect": "The 27124 items at $1187.87 with $7915.64 cost each and $317423.52 fixed costs leave a loss of $182801457.00."
+  }
+ ],
+ "errors": [
+  [
+   "units",
+   [
+    "0",
+    "4",
+    "1.5"
+   ]
+  ],
+  [
+   "units",
+   [
+    "1000000.01",
+    "4",
+    "1.5"
+   ]
+  ],
+  [
+   "units",
+   [
+    "500",
+    "0",
+    "1.5"
+   ]
+  ],
+  [
+   "units",
+   [
+    "500",
+    "4",
+    "0"
+   ]
+  ],
+  [
+   "units",
+   [
+    "500",
+    "1.5",
+    "1.5"
+   ]
+  ],
+  [
+   "units",
+   [
+    "500",
+    "1",
+    "1.5"
+   ]
+  ],
+  [
+   "units",
+   [
+    "500",
+    "4.005",
+    "1.5"
+   ]
+  ],
+  [
+   "units",
+   [
+    "500",
+    "10000.01",
+    "1.5"
+   ]
+  ],
+  [
+   "split",
+   [
+    "0",
+    "8"
+   ]
+  ],
+  [
+   "split",
+   [
+    "100001",
+    "8"
+   ]
+  ],
+  [
+   "split",
+   [
+    "200",
+    "0"
+   ]
+  ],
+  [
+   "split",
+   [
+    "200",
+    "1001"
+   ]
+  ],
+  [
+   "box",
+   [
+    "0",
+    "24"
+   ]
+  ],
+  [
+   "box",
+   [
+    "200",
+    "0"
+   ]
+  ],
+  [
+   "box",
+   [
+    "200",
+    "1001"
+   ]
+  ],
+  [
+   "profit",
+   [
+    "0",
+    "4",
+    "1.5",
+    "60"
+   ]
+  ],
+  [
+   "profit",
+   [
+    "180",
+    "0",
+    "1.5",
+    "60"
+   ]
+  ],
+  [
+   "profit",
+   [
+    "180",
+    "4",
+    "0",
+    "60"
+   ]
+  ],
+  [
+   "profit",
+   [
+    "180",
+    "4",
+    "1.5",
+    "-1"
+   ]
+  ],
+  [
+   "profit",
+   [
+    "180",
+    "4",
+    "1.5",
+    "1000000.01"
+   ]
+  ],
+  [
+   "profit",
+   [
+    "180",
+    "4",
+    "1.5",
+    "60.005"
+   ]
+  ]
+ ]
+}
