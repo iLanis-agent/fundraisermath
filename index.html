@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fundraiser Math - fundraiser goal, seller, box and profit arithmetic</title>
+<style>
+  :root { --accent:#a23b72; --ink:#2a1021; --paper:#fbf1f6; --soft:#f3dce8; }
+  * { box-sizing:border-box; margin:0; }
+  body { font-family:Georgia, "Times New Roman", serif; background:var(--paper); color:var(--ink); line-height:1.55; }
+  main { max-width:660px; margin:0 auto; }
+  .boundary { background:#fdeaea; border-left:6px solid #b03030; color:#5c1c1c; border-radius:6px; padding:1rem 1.1rem; }
+  .boundary strong { display:block; margin-bottom:.3rem; }
+  body { padding:2.5rem 1.2rem; }
+  h1 { font-size:2.2rem; color:var(--accent); }
+  p.lede { font-size:1.12rem; margin:.9rem 0 1.6rem; }
+  .boundary { margin-bottom:1.6rem; }
+  section { background:var(--soft); border-left:5px solid var(--accent); border-radius:6px; padding:1.1rem 1.2rem; margin-bottom:1.2rem; }
+  h2 { font-size:1.18rem; margin-bottom:.5rem; }
+  section p { font-size:.98rem; }
+  a.btn { display:inline-block; margin-top:1.4rem; background:var(--accent); color:#fff; text-decoration:none; padding:.8rem 1.6rem; border-radius:999px; font-size:1.05rem; }
+  footer { margin-top:2.2rem; font-size:.85rem; color:#8a4e6c; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Fundraiser Math</h1>
+  <p class="lede">To raise $500.00 at $2.50 an item ($4.00 less $1.50), sell 200 items, raising $500.00 with $0.00 over.</p>
+  <div class="boundary">
+    <strong>Boundary: arithmetic only</strong>
+    Fundraiser Math counts a fundraiser with multiplication, division and rounding-up: the items to sell for a goal, the share each seller takes, the boxes, and the profit. It uses no named constants. It applies the counting as written, so it has not met your buyers and does not know what will sell, any fee, tax or permit rule, and it gives no verdict that the goal can be reached or that the plan is wise. Every number here is your own entry.
+  </div>
+  <p class="lede" style="font-size:1rem">Starting examples: a $500 goal, a $4.00 price and $1.50 cost, 200 items among 8 sellers, boxes of 24, 180 sold with $60 fixed costs.</p>
+  <section>
+    <h2>The seller truth</h2>
+    <p>The 200 items shared among 8 sellers is 25 each, with 0 left over.</p>
+  </section>
+  <section>
+    <h2>The box truth</h2>
+    <p>The 200 items in boxes of 24 take 9 boxes, leaving 16 spaces spare.</p>
+  </section>
+  <section>
+    <h2>The profit truth</h2>
+    <p>The 180 items at $4.00 with $1.50 cost each and $60.00 fixed costs leave $390.00.</p>
+  </section>
+  <a class="btn" href="app.html">Run your numbers</a>
+  <footer>Fundraiser Math is exact arithmetic over the numbers you enter, nothing more.</footer>
+</main>
+</body>
+</html>
